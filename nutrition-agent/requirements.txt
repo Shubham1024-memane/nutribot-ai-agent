@@ -1,0 +1,22 @@
+# NutriBot — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+Flask==3.0.3
+Flask-Session==0.8.0
+
+# IBM Watsonx.ai SDK
+ibm-watsonx-ai==1.1.2
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# HTTP & utilities
+requests==2.32.3
+Werkzeug==3.0.3
+
+# Production WSGI server
+gunicorn==22.0.0
+
+# Optional: for enhanced session handling
+itsdangerous==2.2.0
